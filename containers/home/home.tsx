@@ -49,6 +49,14 @@ const Home: React.FC = () => {
               </a>
             </li>
           </ul>
+          <div className="get-started">
+            <a
+              href="https://github.com/GifaEriyanto/nextjs-starter"
+              rel="noopener"
+            >
+              Start Your Project <span>→</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

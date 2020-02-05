@@ -82,3 +82,24 @@ a {
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.get-started {
+  margin-top: 50px;
+}
+
+.get-started a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.get-started a span {
+  font-size: 24px;
+  margin-left: 20px;
+}
