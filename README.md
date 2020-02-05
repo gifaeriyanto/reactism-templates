@@ -21,7 +21,7 @@ Just clone this repository and remove the `.git` folder
 
 	git clone https://github.com/GifaEriyanto/nextjs-starter.git
 
-Or you can using the CLI version with `Reactism`
+Or you can use CLI with `Reactism`
 
 	npm i -g reactism
   
