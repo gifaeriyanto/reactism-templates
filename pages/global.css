@@ -14,12 +14,16 @@ a {
 }
 
 .container {
+  width: 100%;
   max-width: 800px;
   margin: 50px auto;
 }
 
-.logo div {
+.logo {
   text-align: center;
+}
+
+.logo div {
   margin-top: -18px;
   margin-left: 84px;
 }

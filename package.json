@@ -1,12 +1,14 @@
 {
   "name": "nextjs-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Don't take too long to get started!",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "test-reset": "find . -name '*.snap' -delete"
   },
   "repository": {
     "type": "git",
@@ -25,8 +27,11 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.0",
     "@types/node": "^13.7.0",
     "@types/react": "^16.9.19",
+    "jest": "^25.1.0",
     "typescript": "^3.7.5"
   }
 }
