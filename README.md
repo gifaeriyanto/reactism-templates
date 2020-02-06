@@ -13,7 +13,11 @@ This feature actually needs improvement, still using manual configuration on tsc
 This config is run well when we using serverless with now. Need custom for custom server.
 
 #### ✅ Serverless with [now](https://github.com/zeit/now "now")
+
 #### ✅ Test with [Testing Library](https://testing-library.com/ "Testing Library")
+
+#### ✅ Start with perfect audit
+[![audit](https://nextjs-starter-olive.now.sh/audit.png "audit")](https://nextjs-starter-olive.now.sh/audit.png "audit")
 
 ## Get Started
 
