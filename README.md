@@ -17,7 +17,7 @@ This config is run well when we using serverless with now. Need custom for custo
 #### ✅ Test with [Testing Library](https://testing-library.com/ "Testing Library")
 
 #### ✅ Start with perfect audit
-[![audit](https://nextjs-starter-olive.now.sh/audit.png "audit")](https://nextjs-starter-olive.now.sh/audit.png "audit")
+
 
 ## Get Started
 
