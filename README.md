@@ -6,6 +6,8 @@ This is my boilerplate for my next.js project. _Don't take too long to get start
 
 #### ✅ Typescript
 
+#### ✅ TSLint
+
 #### ✅ Path alias resolved
 
 This feature actually needs improvement, still using manual configuration on tsconfig, webpack and jest
