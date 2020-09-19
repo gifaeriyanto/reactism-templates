@@ -1,6 +1,6 @@
-import React from 'react';
 import { NextPage } from 'next';
 import Head from 'next/head';
+import React from 'react';
 
 const Index: NextPage = () => {
   return (

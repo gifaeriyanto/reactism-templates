@@ -1,5 +1,5 @@
-import React from 'react';
 import { AppProps } from 'next/app';
+import React from 'react';
 import './global.css';
 
 const App = ({ Component, pageProps }: AppProps) => {
