@@ -1,6 +1,6 @@
-# Next.js Starter
+# Next Basic
 
-This is my boilerplate for my next.js project. _Don't take too long to get started!_.
+Boilerplate for next project.
 
 ## Features
 
@@ -18,18 +18,18 @@ This feature actually needs improvement, still using manual configuration on tsc
 
 ## Get Started
 
-Just clone this repository and remove the `.git` folder
+1. Install `reactism`
 
-    git clone https://github.com/GifaEriyanto/nextjs-starter.git
+```
+npm i -g reactism
+```
 
-Or you can use CLI with `Reactism`
+2. Run this command:
 
-    npm i -g reactism
+```
+reactism
+```
 
-and then run this command:
+3. Select `next-basic` template
 
-    reactism create yourproject
-
-And Done! You can start your project now.
-
-_let us know if something goes wrong, enjoy your code!!!_
+And Done! You can start your project now. _Enjoy your code!!!_
