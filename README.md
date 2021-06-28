@@ -1,6 +1,6 @@
 # Reactism Templates
 
-Boilerplate for any projects. _Don't take too long to get started!_
+Boilerplate for react projects. _Don't take too long to get started!_
 
 ## Get Started
 
