@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-starter",
+  "name": "next-basic",
   "version": "1.0.0",
   "description": "Don't take too long to get started!",
   "main": "index.js",
@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
-    "test-reset": "find . -name '*.snap' -delete"
+    "typecheck": "tsc --noEmit",
+    "tslint": "tslint --project tsconfig.json",
+    "tslint:fix": "tslint --fix --project tsconfig.json"
   },
   "repository": {
     "type": "git",
