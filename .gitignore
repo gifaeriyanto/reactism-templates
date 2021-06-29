@@ -1,1 +1,2 @@
 /templates/**/*.lock
+/templates/**/*-lock.json
