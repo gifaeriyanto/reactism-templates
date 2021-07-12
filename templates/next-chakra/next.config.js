@@ -5,8 +5,6 @@ const nextConfig = {
 
   // webpack config
   webpack(config, _options) {
-    config.resolve.alias['@pages'] = path.join(__dirname, 'pages');
-
     return config;
   },
 };

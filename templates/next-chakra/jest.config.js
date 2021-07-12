@@ -6,13 +6,14 @@ module.exports = {
   coverageDirectory: 'coverage',
   collectCoverageFrom: [
     '**/*.{ts,tsx}',
-    '!pages/{_app,_document,_error}.{ts,tsx}',
-    '!next-env.d.ts',
-    '!<rootDir>/serviceWorker.js',
-    '!<rootDir>/node_modules/',
+    '!<rootDir>/pages/{_app,_document,_error}.{ts,tsx}',
+    '!<rootDir>/next-env.d.ts',
+    '!<rootDir>/app/{themes,interfaces}/*.{ts,tsx}',
+    '!<rootDir>/{pages,tests}/*',
   ],
   setupFilesAfterEnv: ['./jest.setup.js'],
+  modulePaths: ['<rootDir>/app/'],
   moduleNameMapper: {
-    '^@pages/(.*)': '<rootDir>/pages/$1',
+    '^tests/(.*)': '<rootDir>/tests/$1',
   },
 };
