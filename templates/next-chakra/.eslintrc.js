@@ -87,4 +87,10 @@ module.exports = {
       version: 'detect',
     },
   },
+  parserOptions: {
+    ecmaVersion: 2017,
+  },
+  env: {
+    es6: true,
+  },
 };
