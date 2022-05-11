@@ -1,5 +1,5 @@
-import { NextPage } from 'next';
 import React from 'react';
+import { NextPage } from 'next';
 
 const Index: NextPage = () => {
   return <>Next Basic</>;
