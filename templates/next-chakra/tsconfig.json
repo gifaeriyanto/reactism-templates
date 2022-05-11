@@ -15,7 +15,9 @@
     "baseUrl": "app",
     "paths": {
       "tests/*": ["../tests/*"]
-    }
+    },
+    "allowJs": true,
+    "incremental": true
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
